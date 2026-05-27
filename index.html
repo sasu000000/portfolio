@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SASS! — Styled by Sasu</title>
+  <meta name="description" content="SASS! is the portfolio of Sasu, a multidisciplinary stylist and artist based in Accra, Ghana." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header" aria-label="Main navigation">
+    <a class="brand" href="#home" aria-label="SASS! home">
+      <img src="images/logo-transparent.png" alt="SASS! logo" class="brand-logo" />
+      <span>Styled by Sasu</span>
+    </a>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#work">Work</a>
+      <a href="#services">Services</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero section-dark">
+      <div class="hero-image" role="img" aria-label="Styled editorial image of a model in motion"></div>
+      <div class="hero-overlay"></div>
+      <div class="hero-content">
+        <p class="eyebrow">Accra, Ghana</p>
+        <h1>SASS!</h1>
+        <p class="hero-subtitle">Styling / Creative Direction / Set Design</p>
+        <p class="hero-line">A styling portfolio exploring fashion, identity, and visual storytelling.</p>
+        <div class="hero-actions">
+          <a href="#work" class="button button-light">View Work</a>
+          <a href="#contact" class="button button-outline">Work With Me</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="about section-light">
+      <div class="about-inner">
+        <p class="mini-label">About</p>
+        <p>
+          I am Sasu, a multidisciplinary artist and stylist based in Accra, Ghana. My work moves across styling, creative direction, set design, and image-making, with a focus on experimental and conceptual fashion.
+        </p>
+        <p>
+          I use clothing, space, texture, and composition to build looks and scenes that feel intentional, expressive, and character-driven. My practice sits between fashion and art, exploring how clothes can shape mood, identity, and the way a story is seen.
+        </p>
+      </div>
+    </section>
+
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee-track">
+        <span>STYLEDBYSASU</span><span>STYLEDBYSASU</span><span>STYLEDBYSASU</span><span>STYLEDBYSASU</span><span>STYLEDBYSASU</span><span>STYLEDBYSASU</span><span>STYLEDBYSASU</span><span>STYLEDBYSASU</span>
+      </div>
+    </div>
+
+    <section id="work" class="work-section section-light">
+      <div class="section-intro">
+        <p class="mini-label">Selected Work</p>
+        <h2>Work</h2>
+      </div>
+
+      <article class="category" id="editorial">
+        <div class="category-copy">
+          <h3>Editorial</h3>
+          <p class="category-meta">Type: Editorial Styling<br />Role: Stylist / Creative Direction</p>
+          <p>Concept-led imagery built around mood, character, clothing, and visual storytelling.</p>
+        </div>
+        <div class="category-gallery editorial-grid" aria-label="Editorial styling gallery">
+          <img src="images/editorial-03.jpg" alt="Editorial styling by the sea with two models" class="tile large wide" />
+          <img src="images/editorial-11.jpg" alt="Three models in suits and patterned sashes" class="tile tall" />
+          <img src="images/editorial-01.jpg" alt="Model seated in front of a blue gate with a gold headpiece" class="tile" />
+          <img src="images/editorial-02.jpg" alt="Black and white portrait of model seated on a sofa" class="tile" />
+          <img src="images/editorial-04.jpg" alt="Model in a white jacket styled beside a boat" class="tile tall" />
+          <img src="images/editorial-05.jpg" alt="Model veiled in white fabric on pale textured ground" class="tile" />
+          <img src="images/editorial-06.jpg" alt="Model seated against peach wall in animal print styling" class="tile tall" />
+          <img src="images/editorial-07.jpg" alt="Model in leopard print styling with red backdrop" class="tile tall" />
+          <img src="images/editorial-08.jpg" alt="Model in white and silver styling in front of cactus plants" class="tile tall" />
+          <img src="images/editorial-09.jpg" alt="Model in green and white styling on a porch" class="tile wide" />
+          <img src="images/editorial-10.jpg" alt="Model in grey top and purple trousers on a street" class="tile wide" />
+          <img src="images/editorial-12.jpg" alt="Model in red styling with white tights" class="tile tall" />
+        </div>
+      </article>
+
+      <div class="thin-marquee" aria-hidden="true"><div class="thin-marquee-track"><span>STYLEDBYSASU</span><span>STYLEDBYSASU</span><span>STYLEDBYSASU</span><span>STYLEDBYSASU</span><span>STYLEDBYSASU</span><span>STYLEDBYSASU</span></div></div>
+
+      <article class="category" id="fittings">
+        <div class="category-copy">
+          <h3>Fittings</h3>
+          <p class="category-meta">Type: Fittings<br />Role: Stylist / Wardrobe Styling</p>
+          <p>Styled looks focused on silhouette, accessorizing, character, and personal expression.</p>
+        </div>
+        <div class="category-gallery fittings-grid" aria-label="Fittings gallery">
+          <img src="images/fittings-02.jpg" alt="Fitting look with purple gown and white headpiece" class="tile large tall" />
+          <img src="images/fittings-01.jpg" alt="Fitting look with orange cycling jersey and white skirt" class="tile tall" />
+          <img src="images/fittings-03.jpg" alt="Layered fitting look with neon top and lace fabric" class="tile tall" />
+          <img src="images/fittings-04.jpg" alt="Fitting look with dark leather dress and red tights" class="tile tall" />
+          <img src="images/fittings-05.jpg" alt="Fitting look with red leather jacket and yellow shoes" class="tile tall" />
+          <img src="images/fittings-06.jpg" alt="Fitting look with red polo and cream trousers" class="tile tall" />
+        </div>
+      </article>
+
+      <div class="thin-marquee" aria-hidden="true"><div class="thin-marquee-track"><span>STYLEDBYSASU</span><span>STYLEDBYSASU</span><span>STYLEDBYSASU</span><span>STYLEDBYSASU</span><span>STYLEDBYSASU</span><span>STYLEDBYSASU</span></div></div>
+
+      <article class="category" id="set-design">
+        <div class="category-copy">
+          <h3>Set Design</h3>
+          <p class="category-meta">Type: Set Design<br />Role: Stylist / Set Design</p>
+          <p>Spaces and scenes shaped through props, placement, mood, and visual composition.</p>
+        </div>
+        <div class="category-gallery set-grid" aria-label="Set design gallery">
+          <img src="images/set-03.jpg" alt="Kitchen set design with model and Grounded by Elegance text" class="tile large wide" />
+          <img src="images/set-01.jpg" alt="Living room set design with model reclining on the floor" class="tile wide" />
+          <img src="images/set-02.jpg" alt="Red bedroom set design with model beside carved sculpture" class="tile wide" />
+        </div>
+      </article>
+    </section>
+
+    <section id="services" class="services section-light">
+      <div class="section-intro">
+        <p class="mini-label">Services</p>
+        <h2>What I Do</h2>
+      </div>
+      <div class="services-grid">
+        <div><h3>Editorial Styling</h3><p>Concept-led styling for fashion stories, shoots, and visual campaigns.</p></div>
+        <div><h3>Fittings</h3><p>Look building, wardrobe edits, and personal styling for image-focused dressing.</p></div>
+        <div><h3>Wardrobe Styling</h3><p>Clothing direction for shoots, appearances, performances, and visual projects.</p></div>
+        <div><h3>Set Design</h3><p>Props, space, and scene-building to support the mood of a visual story.</p></div>
+        <div><h3>Music Video Styling</h3><p>Character styling and visual direction for artists, music videos, and performance concepts.</p></div>
+        <div><h3>Consultation</h3><p>Creative support for styling direction, visual identity, and concept development.</p></div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact section-dark">
+      <div class="contact-inner">
+        <p class="mini-label">Contact</p>
+        <h2>Work With Me</h2>
+        <p>For styling, fittings, set design, and visual projects, reach out below.</p>
+        <div class="contact-links">
+          <a href="mailto:kwesisasu900@gmail.com">Email</a>
+          <a href="https://www.instagram.com/styledbysasu/" target="_blank" rel="noopener">Instagram</a>
+          <a href="https://wa.me/233550035968" target="_blank" rel="noopener">WhatsApp</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <span>© <span id="year"></span> SASS!</span>
+    <a href="#home">Back to top ↑</a>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
